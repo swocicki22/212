@@ -1,4 +1,4 @@
-# Queue
+# Linked List
 
 ## Introduction:
 
