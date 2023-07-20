@@ -1,4 +1,4 @@
-# Queue
+# Queue Data Structure
 
 ## Introduction:
 
@@ -39,7 +39,27 @@ These basic operations and functions allow programmers to manipulate and interac
 
 # Example Code
 
-## ![Code Example](images/printer.png)
+##
+```python
+class PrinterqQueue:
+    def __init__self(self):
+        self.queue = []
+
+    def enqueue(self, print_request):
+        self.queue.append(print_request)
+    
+    def dequeue(self):
+        if self.is_empty():
+            return None
+        return self.queue.pop(0)
+    
+    def is_empty(self):
+        return len(self.queue) == 0
+
+    def size(self):
+        return len(self.queue)
+
+```
 
 # Coding CHALLENGE (Get ready for those jobs Interviews...)
 
@@ -52,4 +72,24 @@ Implement a Queue class that supports the following methods:
 
 # Solution
 
-## ![Code Solution](images/solution.png)
+##
+```python
+class Queue:
+    def __init__(self):
+        self.queue = []
+
+    def enqueue(self, item):
+        self.queue.append(item)
+
+    def dequeue(self):
+        if self.is_empty():
+            return None
+        return self.queue.pop(0)
+
+    def is_empty(self):
+        return len(self.queue) == 0
+
+    def size(self):
+        return len(self.queue)
+
+```

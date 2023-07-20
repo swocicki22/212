@@ -1,4 +1,4 @@
-# Linked List
+# Linked List Data Structure
 
 ## Introduction:
 
